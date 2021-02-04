@@ -1,13 +1,41 @@
 {
-  "pages":[
+  "pages": [
+    "pages/record/index",
+    "pages/home/index",
+    "pages/my/index",
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#29e013",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/record/index",
+        "iconPath": "images/nav/record-out.png",
+        "selectedIconPath": "images/nav/record-in.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "images/nav/home-out.png",
+        "selectedIconPath": "images/nav/home-in.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/nav/my-out.png",
+        "selectedIconPath": "images/nav/my-in.png",
+        "text": "我"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "是",
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
