@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    server: [
+      {
+        Id:1,
+        name: "A",
+        open: 0,
+        clone: 0,
+        total: 53
+      },
+      {
+        Id:2,
+        name: "B",
+        open: 0,
+        clone: 5,
+        total: 5
+      },
+    ],
   },
 
   /**

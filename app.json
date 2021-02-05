@@ -4,7 +4,8 @@
     "pages/home/index",
     "pages/my/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/chunk/index"
   ],
   "tabBar": {
     "color": "#6e6d6b",

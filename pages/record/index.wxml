@@ -1,2 +1,12 @@
-<!--pages/record/index.wxml-->
-<text>pages/record/index.wxml</text>
+  <!--  页面服务部分  -->
+  <view class="server-box">
+    <!--导航头  -->
+    <view class="header">
+      <view class="header-text fs30">www.nyzniot.com</view>
+    </view>
+
+    <!--列表  -->
+    <view class="list-server">
+     记录</view>
+
+  </view>
