@@ -8,7 +8,7 @@
     <!--列表  -->
     <view class="list-server">
         <!-- 循环 -->
-        <view class="list" wx:for="{{server}}" wx:key="name">
+        <view class="list width50" wx:for="{{server}}" wx:key="name">
             <navigator class="listbox" url="{{'../../pages/chunk/index?Id='+item.Id}}" hover-class="none" open-type="navigate">
                 <view class="linam fs36">田地 {{item.name}}</view>
                 <view  class="lim fs26"><view>块开启:</view>
@@ -23,7 +23,7 @@
             </navigator>
         </view>
         <!--添加-->
-        <view class="list">
+        <view class="list width50">
             <navigator class="listbox" url="" hover-class="none" open-type="navigate">
                 <view class="padingtopbottom30" >
                     <image src="../../images/record/add.png" class="listimg" />

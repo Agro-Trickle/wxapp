@@ -5,6 +5,7 @@
     "pages/my/index",
     "pages/index/index",
     "pages/logs/logs",
+    "pages/valve/index",
     "pages/chunk/index"
   ],
   "tabBar": {
